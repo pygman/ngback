@@ -1,0 +1,28 @@
+ng:
+  monitor:
+    reg: ${center:0.0.0.0:4399}
+    phone: ${phone:000000}
+  server:
+    reg: ${server:0.0.0.0:9898}
+  client:
+    name: ${name:default}
+    db: ${db:default}
+    host: ${host:http://0.0.0.0:8888}
+    force: ${force:false}
+
+ca:
+  folder: ${ca:default}
+  root: ${root_crt:root.crt}
+  monitor:
+    crt: ${monitor_crt:monitor.crt}
+    key: ${monitor_key:monitor.key}
+  server:
+    crt: ${server_crt:server.crt}
+    key: ${server_key:server.key}
+  client:
+    crt: ${client_crt:client.crt}
+    key: ${client_key:client.key}
+
+server:
+  port: ${port:43990}
+
